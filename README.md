@@ -21,7 +21,7 @@ Timer.StartTimer();
 
 /** End the timer. The output can now be accessed
  *  through two ways.
- *  For example, the get the amount of seconds we could do:
+ *  For example, to get the amount of seconds we could do:
  *      Timer.GetSeconds();
  *  OR
  *      Timer.Seconds;
@@ -36,11 +36,11 @@ const long double Seconds = Timer.GetSeconds();
  * This section show how to print the values, at varrying lengths.
  */
 
-/** Using %g, we're that we want the best fit. */
+/** Using %g, we're saying that we want the best fit. */
 printf("Seconds: %g\n", Seconds);
 
 /** Using %0.12g, we're saying that we want at least 12 digits
- *  both before and after the decimal. */
+ *  both before and after the decimal point. */
 printf("Seconds: %12.12g\n", Seconds);
 
 /** For further help with printing floats/doubles, see the link below:

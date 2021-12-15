@@ -5,7 +5,7 @@ Ability to easily Start & Stop the timer, then get the output in
 Seconds, Milliseconds, Microseconds, and Nanoseconds.
 
 ## How To Use
-~~~~
+```c++
 /** Include the header. */
 #include "OpenNanoTimer.h"
 
@@ -45,4 +45,4 @@ printf("Seconds: %12.12g\n", Seconds);
 
 /** For further help with printing floats/doubles, see the link below:
  *  https://www.lemoda.net/c/double-decimal-places */
-~~~~
+```
